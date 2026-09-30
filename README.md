@@ -1,96 +1,84 @@
-### Deployed:
-https://resumyzer-j7qd-lwvnx.puter.site
+# Resumyzer
 
-## wipe data:
-/wipe
+Resumyzer is an AI-powered resume analyzer that helps users evaluate their resumes against specific job descriptions and receive ATS-focused feedback.
 
-
-
-
-# Welcome to React Router!
-
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+The application allows users to upload a resume, provide a job description, and receive an AI-generated analysis with an overall ATS score and feedback on different aspects of the resume.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+* Upload and analyze resumes
+* Compare a resume against a job description
+* Generate an ATS score using AI
+* Receive feedback on resume content and presentation
+* View analysis results across different sections
+* Track the current analysis state through the interface
+* User authentication
+* Store and manage uploaded resumes
+* Responsive interface
 
-## Getting Started
+## Technologies
 
-### Installation
+* React
+* TypeScript
+* React Router
+* Tailwind CSS
+* Vite
+* Zustand
+* Puter.js
 
-Install the dependencies:
+## How It Works
 
-```bash
-npm install
-```
+1. Sign in to the application.
+2. Upload a resume.
+3. Enter the job description for the position.
+4. Start the analysis.
+5. The application processes the resume using AI.
+6. Review the ATS score and the feedback provided.
+7. Use the feedback to identify areas of the resume that could be improved.
 
-### Development
+## Customizations
 
-Start the development server with HMR:
+This project was built by following the **JavaScript Mastery AI Resume Analyzer tutorial** and then customized and extended for my own version of the application.
 
-```bash
-npm run dev
-```
+My changes include:
 
-Your application will be available at `http://localhost:5173`.
+* Redesigned the application layout
+* Replaced and customized the original assets
+* Added a current-state indicator to the interface
+* Customized the overall visual presentation
+* Added my own project branding as **Resumyzer**
 
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
+The project was used as an opportunity to understand how an AI-powered resume analysis application is structured and to practice working with React, TypeScript, routing, state management, and AI-powered features.
 
 ## Deployment
 
-### Docker Deployment
+A deployed version of Resumyzer is available here:
 
-To build and run using Docker:
+**[Open Resumyzer](https://resumyzer-j7qd-lwvnx.puter.site)**
 
-```bash
-docker build -t my-app .
+## Learning
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+This project helped me gain practical experience with:
 
-The containerized application can be deployed to any platform that supports Docker, including:
+* Building interfaces with React and TypeScript
+* Managing application state
+* Working with React Router
+* Creating reusable UI components
+* Styling applications with Tailwind CSS
+* Integrating AI-powered functionality
+* Handling file uploads
+* Building a multi-page application
+* Customizing an existing project into my own version
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+## Credits
 
-### DIY Deployment
+The original project structure and implementation were learned from the **JavaScript Mastery AI Resume Analyzer tutorial**.
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+**Original project:**
+https://github.com/adrianhajdin/ai-resume-analyzer
 
-Make sure to deploy the output of `npm run build`
+I customized the project with my own layout, assets, branding, and additional interface changes to create **Resumyzer**.
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
+## License
 
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
