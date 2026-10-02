@@ -72,7 +72,7 @@ This project helped me gain practical experience with:
 
 ## Credits
 
-The original project structure and implementation were learned from the **JavaScript Mastery AI Resume Analyzer tutorial**.
+The original project structure and implementation were learned from the **JavaScript Mastery**.
 
 **Original project:**
 https://github.com/adrianhajdin/ai-resume-analyzer
