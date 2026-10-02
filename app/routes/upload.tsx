@@ -162,7 +162,7 @@ const Upload = () => {
     }
 
     return (
-        <main className="bg-[url('/images/bg-main.png')] bg-cover">
+        <main className="bg-[url('/images/bg-main.svg')] bg-cover">
             <Navbar />
 
             <section className="main-section">

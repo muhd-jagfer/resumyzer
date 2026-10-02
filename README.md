@@ -54,7 +54,7 @@ The project was used as an opportunity to understand how an AI-powered resume an
 
 A deployed version of Resumyzer is available here:
 
-**[Open Resumyzer](https://resumyzer-j7qd-lwvnx.puter.site)**
+**[Open Resumyzer](https://resumyzerai-2lzib.puter.site)**
 
 ## Learning
 
@@ -77,7 +77,6 @@ The original project structure and implementation were learned from the **JavaSc
 **Original project:**
 https://github.com/adrianhajdin/ai-resume-analyzer
 
-I customized the project with my own layout, assets, branding, and additional interface changes to create **Resumyzer**.
 
 ## License
 
